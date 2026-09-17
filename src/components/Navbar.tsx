@@ -180,7 +180,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               Start a Project
             </button>
             <p className="text-center text-xs text-[#A9A3B2]">
-              Direct Inquiries: <span className="text-[#C084FC]">hello@techering.com</span>
+              Direct Inquiries: <span className="text-[#C084FC]">techeering@gmail.com</span>
             </p>
           </div>
         </div>

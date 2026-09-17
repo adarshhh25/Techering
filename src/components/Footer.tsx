@@ -41,10 +41,10 @@ export const Footer: React.FC<FooterProps> = ({
                 DIRECT INQUIRIES
               </span>
               <a
-                href="mailto:hello@techering.com"
+                href="mailto:techeering@gmail.com"
                 className="font-display font-semibold text-xl sm:text-2xl text-[#F5F3F7] hover:text-[#D2BBFF] transition-colors"
               >
-                hello@techering.com
+                techeering@gmail.com
               </a>
             </div>
           </div>
@@ -121,7 +121,7 @@ export const Footer: React.FC<FooterProps> = ({
               </span>
               <ul className="space-y-3 text-xs sm:text-[13px] text-[#A9A3B2]">
                 <li className="text-[#F5F3F7] font-medium">
-                  +1 (555) 019-2834
+                  +91 88791 39434
                 </li>
                 <li>Mumbai, India & Global</li>
                 <li>

@@ -40,7 +40,7 @@ export default function App() {
 
 
   const handleOpenWhatsApp = () => {
-    window.open('https://wa.me/15550192834', '_blank');
+    window.open('https://wa.me/918879139434', '_blank');
   };
 
   return (
