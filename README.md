@@ -1,20 +1,85 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Techering | High-End Digital Agency
 
-# Run and deploy your AI Studio app
+Techering is a modern, premium, and performance-driven digital agency website. Built for ambitious venture-backed founders and culture-defining brands, the platform bridges the gap between high-fashion editorial craftsmanship and rigorous data-driven Silicon Valley optimization.
 
-This contains everything you need to run your app locally.
+## 🚀 Key Features
 
-View your app in AI Studio: https://ai.studio/apps/6360679a-bb2f-4803-ad2c-2b609709774b
+*   **Modern Premium Aesthetic:** A meticulously crafted dark-mode UI with glassmorphism effects, dynamic gradients, and modern typography.
+*   **Multi-Page Architecture:** Fully functional routing with dedicated pages for Home, About, Services, Work (Case Studies), Testimonials, and Pricing.
+*   **Direct WhatsApp Integration:** Streamlined user inquiries bypassing traditional backends—all call-to-action buttons route directly to a configured WhatsApp business line.
+*   **Dynamic Data Driven:** Services, case studies, pricing, and testimonials are all driven by a centralized data configuration file (`agencyData.ts`).
+*   **Mobile-First Responsive:** Flawless experience across desktops, tablets, and mobile devices with a custom off-canvas mobile navigation drawer.
+*   **Micro-Animations:** Strategic use of hover states, continuous spinning graphics, pulsing gradients, and layout transitions to create a "wow" factor.
 
-## Run Locally
+## 🛠 Tech Stack
 
-**Prerequisites:**  Node.js
+*   **Frontend Framework:** [React 18](https://react.dev/)
+*   **Language:** [TypeScript](https://www.typescriptlang.org/)
+*   **Build Tool:** [Vite](https://vitejs.dev/)
+*   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+*   **Routing:** [React Router v6](https://reactrouter.com/)
+*   **Icons:** [Lucide React](https://lucide.dev/)
 
+## 📂 Project Structure
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```text
+src/
+├── components/       # Reusable UI components (Navbar, Footer, CaseStudyModal, etc.)
+├── data/             # Centralized application data (agencyData.ts)
+├── layouts/          # Page layouts (MainLayout.tsx handling global Outlet context)
+├── pages/            # Top-level route components (HomePage, AboutPage, etc.)
+├── App.tsx           # Application entry point & route definitions
+├── main.tsx          # React DOM rendering
+├── types.ts          # TypeScript interfaces and types
+└── index.css         # Global styles and Tailwind directives
+```
+
+## 💻 Getting Started
+
+### Prerequisites
+
+Ensure you have [Node.js](https://nodejs.org/) installed on your machine (v18+ recommended).
+
+### Installation
+
+1. Navigate to the project directory:
+   ```bash
+   cd techering1
+   ```
+
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+### Development Server
+
+Run the application locally in development mode:
+
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`. Hot Module Replacement (HMR) is enabled, meaning changes to the code will instantly reflect in the browser.
+
+### Build for Production
+
+To create an optimized production build:
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+The compiled assets will be output to the `dist/` directory, ready to be deployed to Vercel, Netlify, or any static hosting provider.
+
+## 🎨 Customizing the Content
+
+The website is designed to be easily configurable without diving deep into the React components. 
+
+To update the agency's services, portfolio case studies, client testimonials, or pricing packages, simply edit the data structures inside `src/data/agencyData.ts`. All changes will dynamically propagate throughout the application.
