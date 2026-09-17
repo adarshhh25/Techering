@@ -83,3 +83,9 @@ The compiled assets will be output to the `dist/` directory, ready to be deploye
 The website is designed to be easily configurable without diving deep into the React components. 
 
 To update the agency's services, portfolio case studies, client testimonials, or pricing packages, simply edit the data structures inside `src/data/agencyData.ts`. All changes will dynamically propagate throughout the application.
+
+## ⚖️ Legal & Copyright
+
+> [!WARNING]
+> **PROPRIETARY SOFTWARE**
+> This source code is the confidential and proprietary property of Techering. It is strictly prohibited to copy, distribute, modify, or use this software (or any of its parts) anywhere else without explicit written permission. All rights reserved.
